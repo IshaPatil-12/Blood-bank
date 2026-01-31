@@ -35,3 +35,14 @@ img{
     margin:0;
     font-size: 14px;
 }
+
+nav{
+    background-color:#880808; 
+    display:flex;
+    justify-content: end;
+}
+a{
+    color:azure;
+    padding:10px;
+    text-decoration: none;
+}
