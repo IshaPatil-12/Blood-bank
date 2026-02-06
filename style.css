@@ -46,6 +46,9 @@ a{
     padding:10px;
     text-decoration: none;
 }
+a.hover{
+    font-weight: 10%;
+}
 
 
 #intro{
