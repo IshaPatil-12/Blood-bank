@@ -17,22 +17,24 @@ h3{
     font-size: 40px;
     color:#420D09; 
     display:flex;  
-    align-items: center; 
+    align-items:center;
     padding: 2px 20px;
 }
 #s_div{
-    font-size:20px;
     color:darkred;
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    align-items: flex-start;
+
 }
 #s_div h2{
     margin:0;
+    padding:0;
     font-size: 36px;
 }
 #s_div p{
     margin:0;
+    padding:0;
     font-size: 14px;
 }
 
@@ -52,10 +54,63 @@ a.hover{
 
 
 #intro{
-    padding:10px;
+    padding-top:10px;
     display: flex;
     justify-content: start;
     flex-direction: row;  
+}
+.descrip {
+    padding:10px;
+    font-size: 33px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: outset;
+    color:black;
+    background-color: lightgrey;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+h2{
+    padding-top: 10px;
+    text-align: center;
+    color:#880808;
+}
+#donor,#reciever,#stock_avai,#reg_blood_camp{
+    padding-left:30px;
+    padding-top:20px;
+    padding-right:30px;
+    margin:10px;
+    height:170px;
+    width: 170px;
+    background-color:#cc1100;
+    font-size:30px;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+    justify-content:center;
+}
+
+#donor:hover,#reciever:hover,#stock_avai:hover,#reg_blood_camp:hover{
+    background-color:#8B0000;
+}
+
+.who_can_donate{
+    padding:10px;
+    padding-top: 40px;
+    padding-left:20px;
+    display:flex;
+    justify-content: space-between;
+    color:black;
+    border-style: outset;
+}
+
+.donation_info{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
 }
 footer{
     background-color: #880808;
@@ -63,16 +118,3 @@ footer{
     text-align: center;
 }
 
-.descrip {
-    padding:10px;
-    font-size: 33px;
-    font-family:Arial;
-    border-style: outset;
-    color:blak;
-}
-
-.donor{
-    padding:40px;
-    padding-left:150px;
-    
-}
