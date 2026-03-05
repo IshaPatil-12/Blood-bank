@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raktkosh</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     
 </head>
 <body>
@@ -17,15 +18,20 @@
         <p>Connecting Donors with Lives in Need</p>
         </div>
     </div>
-    <nav>
-        <a href="index.html" target="_blank">Home</a>
-        <a href="about_us.html">About us</a>
-        <a href="Sign_in">Sign In</a>
-        <a href="registration.html">Want to donate</a>
-        <a href="blood_availability.html">Check blood availability</a>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Raktkosh</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="about_us.html">About us</a></li>
+                <li><a href="Sign_in">Sign In</a></li>
+                <li><a href="registration.html">Want to donate</a></li>
+                <li><a href="blood_availability.html">Check blood availability</a></li>
+            </ul>
     </nav>
     </header>
-    <main>
     <div id="intro">
         <img src="opd.webp" id="opd" width="500" height="500">
         <div class="descrip">    
@@ -50,6 +56,7 @@
         <h3>Register Voluntary Blood Camps</h3>
         </div>
     </div>
+    </div>
         <div class="who_can_donate">
         <div class="donation_info">
         <h3 style="padding-top: 40px ; padding-left: 20px;color:#880808;font-size:22px;">Who can be the donor</h3>
@@ -62,11 +69,10 @@
             <li>Must not have donated blood in the last 3 months</li>
         </ul>
         </div>
-       <iframe width="560" height="315"src="https://www.youtube.com/embed/QnJbIpdS6sA"title="YouTube video player"frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen>
+        <iframe width="560" height="315"src="https://www.youtube.com/embed/QnJbIpdS6sA"title="YouTube video player"frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen>
        </iframe>
-
-    </div>
-        <h3 style="padding-top: 40px ; padding-left: 40px;color:#880808;font-size:22px;">Why to donate blood</h3>
+        </div>
+    <h3 style="padding-top: 40px ; padding-left: 40px;color:#880808;font-size:22px;">Why to donate blood</h3>
         <div class="importance_of_blood_don" style="display:flex;">
         <video controls mute autoplay width="560" height="315" style="padding:10px; padding-left:45px">
         <source src="blood_donation.mp4" type="video/mp4">
@@ -81,28 +87,12 @@
         </ol>
         </div>
         </div>
-
-
-    <div class="bottom" style="background-color:#363636; padding-top: 10px;">
-        <div style="text-align:start;">
-        <h2 style="color:white;text-align: start;padding-left:20px;">Contact Details:</h2>
-        <pre style="color:white;font-size: 15px;">
-        <b>Address:</b>
-        C-56/1, Anusandhan Bhawan, Sector-62,Mumbai.<br>
-        <b>Contact Number:</b>
-        8794283492<br>
-        </pre>
-        </div>
-        <div>
-        <h2 style="color:white;text-align: start;padding-left:20px;">Policies</h2>
-        <pre style="color:white;font-size: 15px;padding:3px;">
-        Terms and Conditions
-
-        Privacy Polices
-
-        Accessibility Statement
-        </pre>
-        
+        <div class="container-fluid">
+        <h3 style="color: #880808;text-align:center">Availability of Blood</h3>
+        <div class="row">
+            <div class="col-sm-4" style="background-color:lightgray;">Sr no.</div>
+            <div class="col-sm-4" style="background-color:lightsteelblue;">Blood Group</div>
+            <div class="col-sm-4" style="background-color:lightgrey;">Availability</div>
         </div>
     </div>
     <footer>

@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About us</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .about{
+            padding: 20px;
+            font-size: 18px;
+            color: #880808;
+        }
+         .about img{
+            width: 400px;
+            height: 400px;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 <body>
     <div id="header" style="background-color: #880808; color:azure ; font-size:large;text-align: center; margin:0;padding:0;"><h3>Welcome to the Raktkosh portal!</h3></div>
@@ -20,15 +32,24 @@
         <a href="#about_us">About us</a>
         <a href="Sign_in">Sign In</a>
         <a href="registration.html">Want to donate</a>
-        <a href="check_blood_availability">Check blood availability</a>
+        <a href="blood_availability.html">Check blood availability</a>
     </nav>
-    <div class="about" style="display: flex; display:flex;">
-    <img src="about.jpg">
+    <div class="about" style="">
+    <img src="about.jpg" style="width:100%;">
     <p>
        The <b>Blood Bank Portal</b> is a <i>web-based platform</i> developed to efficiently manage <u>blood donation activities</u>and provide quick access to blood availability information.<br>
+         <br>
          This portal aims to bridge the gap between blood donors and patients in need by offering a simple, reliable, and user-friendly system.<br>
+         <br>
        Blood is a life-saving resource, and timely availability plays a critical role during medical emergencies, surgeries, and accidents.
     </p>
+    
+    <div class="audio" style="align-items: center; width:30%; margin-left: 20px;">
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg ">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
     </div>
 </body>
 </html>
